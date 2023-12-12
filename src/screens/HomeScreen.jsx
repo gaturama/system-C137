@@ -14,9 +14,8 @@ export default function HomeScreen() {
                 <nav>
                     <ul className={styles["container-menu"]}>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/produtos">Produtos</Link></li>
+                        <li><Link to="/produto">Produto</Link></li>
                         <li><Link to="/contato">Contato</Link></li>
-                        <input type="text" placeholder="Pesquisar..." className={styles["search-bar"]} />
                     </ul>
                 </nav>
                 <div className={styles["redes"]}>
