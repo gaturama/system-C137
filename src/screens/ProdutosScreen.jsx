@@ -1,28 +1,11 @@
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from 'react-bootstrap';
-import styles from '../assets/css/Home.module.css';
-import logo from '../assets/img/System C-137.png';
+import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProductCard from "./ProductCard";
-import frutaUm from '../assets/img/produto-maca.jpg'
-import frutaDois from '../assets/img/produto-uva.jpg'
+import logo from '../assets/img/System C-137.png';
+import styles from '../assets/css/Home.module.css';
+import Produto from "./CardProduto";
 
 export default function ProdutoScreen() {
-    const produtos = [
-        {
-            id: 1,
-            titulo: 'Produto 1',
-            descricao: 'Descricao para o Produto 1',
-            imagem: {frutaUm}
-        },
-        {
-            id: 2,
-            titulo: 'Produto 2',
-            descricao: 'Descricao para o Produto 2',
-            imagem: {frutaDois}
-        }
-    ]
-
     return (
         <>
             <header className={styles["container-home"]}>
@@ -43,17 +26,7 @@ export default function ProdutoScreen() {
                 </div>
             </header>
             <Container className={styles["container-products"]}>
-                <Row>
-                    {produtos.map((produto) => (
-                        <Col key={produto.id}>
-                            <ProductCard
-                                titulo={produto.titulo}
-                                descricao={produto.descricao}
-                                imagem={produto.imagem}
-                            />
-                        </Col>
-                    ))}
-                </Row>
+               <Produto />
             </Container>
         </>
     )

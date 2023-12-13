@@ -26,7 +26,7 @@ export default function HomeScreen() {
             </header>
             <main>
                 <div className={styles["container-carousel"]}>
-                    <Carousel>
+                    <Carousel controls={false}>
                         <Carousel.Item>
                             <img src='https://picsum.photos/1920/400' />
                             <Carousel.Caption>Slide 1</Carousel.Caption>
