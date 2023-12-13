@@ -14,7 +14,7 @@ export default function HomeScreen() {
                 <nav>
                     <ul className={styles["container-menu"]}>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/produto">Produto</Link></li>
+                        <li><Link to="/produto">Produtos</Link></li>
                         <li><Link to="/contato">Contato</Link></li>
                     </ul>
                 </nav>
@@ -42,6 +42,9 @@ export default function HomeScreen() {
                     </Carousel>
                 </div>
             </main>
+            <footer>
+                
+            </footer>
         </>
     )
 }

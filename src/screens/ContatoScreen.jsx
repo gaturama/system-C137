@@ -13,7 +13,7 @@ export default function ContatoScreen() {
                 <nav>
                     <ul className={styles["container-menu"]}>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/produto">Produto</Link></li>
+                        <li><Link to="/produto">Produtos</Link></li>
                         <li><Link to="/contato">Contato</Link></li>
                     </ul>
                 </nav>
