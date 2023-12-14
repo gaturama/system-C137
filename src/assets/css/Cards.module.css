@@ -1,7 +1,8 @@
 .container-products {
+    max-width: 100%;
     margin-top: 10px;
+    margin-bottom: 20px;
     display: flex;
-    gap: 30px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -18,9 +19,9 @@
     font-size: 16px;
     height: 450px;
     justify-content: center;
-    margin: 20px;
     margin-top: 50px;
-    width: calc(30% - 130px);
+    max-width: 260px;
+    width: 100%;
     position: relative;
 }
 
@@ -31,6 +32,7 @@
 }
 
 .title-card {
+    width: 100%;
     font-size: 22px;
     text-align: center;
     font-style: bold;
@@ -38,6 +40,7 @@
 }
 
 .text-card {
+    width: 100%;
     font-size: 16px;
     text-align: start;
     margin-top: 25px;
@@ -45,6 +48,7 @@
 }
 
 .value-card {
+    width: 100%;
     margin-top: 20px;
     font-size: 26px;
     font-family: 'Segoe UI';

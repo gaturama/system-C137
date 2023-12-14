@@ -42,9 +42,6 @@ export default function HomeScreen() {
                     </Carousel>
                 </div>
             </main>
-            <footer>
-                
-            </footer>
         </>
     )
 }
