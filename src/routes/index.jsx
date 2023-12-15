@@ -1,16 +1,16 @@
+import { Container } from "react-bootstrap"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import HomeScreen from "../screens/HomeScreen"
 import ProdutoScreen from "../screens/ProdutosScreen"
-import ContatoScreen from "../screens/ContatoScreen"
-import { Container } from "react-bootstrap"
+import SobreScreen from "../screens/SobreScreen"
 
 export default function RootNavigation() {
-    return(
+    return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomeScreen />} />
                 <Route path="/produto" element={<ProdutoScreen />} />
-                <Route path="/contato" element={<ContatoScreen />} />
+                <Route path="/sobre" element={<SobreScreen />} />
             </Routes>
         </BrowserRouter>
     )
