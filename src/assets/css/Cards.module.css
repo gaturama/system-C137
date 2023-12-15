@@ -16,10 +16,10 @@
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    height: 450px;
+    height: 432px;
     justify-content: center;
     margin-top: 50px;
-    max-width: 260px;
+    max-width: 220px;
     width: 100%;
     position: relative;
 }
