@@ -26,7 +26,7 @@ const produtos = [
     { imagem: imagemDois, title: 'BMW', text: 'Rodas Aro 19 BMW M4 Competition | Preta Diamantada', value: 'R$ 5.599,00' },
     { imagem: imagemTreze, title: 'Mercedes', text: 'Rodas Aro 19 Mercedes C63 AMG | Preta Diamantada', value: 'R$ 8.049,00' },
     { imagem: imagemTres, title: 'Volkswagen', text: 'Rodas Aro 20 Vw Tiguan R Line | Preta Diamantada', value: 'R$ 7.999,99' },
-    { imagem: imagemDezenovo, title: 'TSW', text: 'Roda Aro 18 Volcano Daimler | Preta Diamantada', value: "R$ 985,99"},
+    { imagem: imagemDezenovo, title: 'TSW', text: 'Roda Aro 18 Volcano Daimler | Preta Diamantada', value: "R$ 985,99" },
     { imagem: imagemDezoito, title: "Michelin", text: 'Pneu Michelin Aro 18 Pilot Sport 3', value: 'R$ 2.010,95' },
     { imagem: imagemQuatro, title: 'Bridgestone', text: 'Pneu Bridgestone Aro 18 Potenza S001', value: 'R$ 3.799,90' },
     { imagem: imagemCinco, title: 'Continental', text: 'Pneu Continental Aro 18 ContiSportContact', value: 'R$ 3.245,90' },

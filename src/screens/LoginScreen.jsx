@@ -1,17 +1,11 @@
-import { Link, useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import logo from '../assets/img/System C-137.png';
 import login from '../assets/img/login.png';
 import styles from '../assets/css/Home.module.css'
 import Login from './CardLogin';
 
 export default function LoginScreen() {
-    const navigate = useNavigate();
-    
-    const handleLoginClick = () => {
-        navigate.push("/login");
-    }
-
     return (
         <>
             <header className={styles["container-home"]}>
@@ -26,13 +20,8 @@ export default function LoginScreen() {
                     </ul>
                 </nav>
                 <div className={styles["login"]}>
-                    <img 
-                        src={login}
-                        alt='login'
-                        className={styles["login-image"] + " clickable"}
-                        onClick={handleLoginClick}
-                    />
-                    <p className={styles["log"]}>Login</p>
+                    <img src={login} />
+                    <li className={styles['log']}><Link className={styles['log-link']} to="/login">Login</Link></li>
                 </div>
             </header>
             <main>

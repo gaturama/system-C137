@@ -35,7 +35,7 @@ body {
     display: flex;
     list-style: none;
     margin-top: 10px;
-    margin-right: 100px;
+    margin-right: 180px;
 }
 
 .container-menu li {
@@ -62,7 +62,6 @@ body {
     align-items: center;
     width: 25px;
     height: auto;
-    cursor: pointer;
     margin-right: 50px;
 }
 
@@ -73,11 +72,15 @@ body {
 
 .log{
     display: flex;
-    color: white;
     font-size: 14px;
     font-family: sans-serif;
     margin-left: 5px;
-    margin-top: 17px;
+}
+
+.log-link {
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
 
 .container-carousel {

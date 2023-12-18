@@ -6,12 +6,12 @@ export default function Login() {
     return (
         <Card className={stylesCard["login-card"]}>
             <Card.Body>
-                <Card.Img className={stylesCard['user']} src={user}/>
+                <Card.Img className={stylesCard['user']} src={user} />
                 <Card.Title className={stylesCard['title-login']}>Login</Card.Title>
                 <Form>
                     <Form.Group controlId='formBasicEmail'>
                         <Form.Label>Email</Form.Label>
-                        <Form.Control type='email' placeholder='Enter email'/>
+                        <Form.Control type='email' placeholder='Enter email' />
                     </Form.Group>
                     <Form.Group controlId='formBasicPassword'>
                         <Form.Label>Senha</Form.Label>

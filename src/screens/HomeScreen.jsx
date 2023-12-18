@@ -19,10 +19,8 @@ export default function HomeScreen() {
                     </ul>
                 </nav>
                 <div className={styles["login"]}>
-                    <Link to="/login">
-                        <img src={login} alt="login" />
-                        <p className={styles["log"]}>Login</p>
-                    </Link>
+                    <img src={login} />
+                    <li className={styles['log']}><Link className={styles['log-link']} to='/login'>Login</Link></li>
                 </div>
             </header>
             <main>

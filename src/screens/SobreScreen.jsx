@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from '../assets/css/Home.module.css';
 import story from '../assets/css/Historia.module.css'
 import logo from '../assets/img/System C-137.png';
-import rede from '../assets/img/logo-whatsapp.png';
+import login from '../assets/img/login.png';
 import { Carousel } from "react-bootstrap";
 
 export default function SobreScreen() {
@@ -19,8 +19,9 @@ export default function SobreScreen() {
                         <li><Link to="/sobre">Sobre</Link></li>
                     </ul>
                 </nav>
-                <div className={styles["redes"]}>
-                    <a href="https://whatsapp.com/"><img src={rede} alt="redes" /></a>
+                <div className={styles["login"]}>
+                    <img src={login} />
+                    <li className={styles['log']}><Link className={styles['log-link']} to="/login">Login</Link></li>
                 </div>
             </header>
             <main>
@@ -52,7 +53,7 @@ export default function SobreScreen() {
                 </div>
             </main>
             <footer>
-                
+
             </footer>
         </>
     )
