@@ -57,18 +57,27 @@ body {
     color: #005b85;
 }
 
-.redes {
+.login {
     display: flex;
     align-items: center;
     width: 25px;
     height: auto;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
-.redes img {
+.login img {
     width: 100%;
     height: auto;
+}
+
+.log{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 17px;
 }
 
 .container-carousel {
