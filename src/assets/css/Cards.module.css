@@ -9,7 +9,7 @@
 
 .product-card {
     align-items: center;
-    background-color: #050505;
+    background-color: #0C0C0C;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
     color: white;
     display: flex;
@@ -33,7 +33,7 @@
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    background-color: darkred;
+    background-color: #00405e;
 }
 
 .text-card {

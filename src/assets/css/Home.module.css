@@ -1,5 +1,5 @@
 header {
-    background-color: #1f1f1e;
+    background-color: #1d1e1f;
     height: auto;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ body {
 }
 
 .container-menu a:hover {
-    color: darkred;
+    color: #005b85;
 }
 
 .redes {
@@ -87,7 +87,7 @@ body {
 }
 
 footer {
-    background-color: #1f1f1e;
+    background-color: #1d1e1f;
     height: auto;
     bottom: 0;
     padding: 20px;
