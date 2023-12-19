@@ -9,16 +9,16 @@
 
 .product-card {
     align-items: center;
-    background-color: #0C0C0C;
+    background-color: #5A9FBB; 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
-    color: white;
+    color: #001F3F;
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     height: 432px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
     max-width: 220px;
     width: 100%;
     position: relative;
@@ -33,7 +33,7 @@
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    background-color: #00405e;
+    background-color: #F5F5F5;
 }
 
 .text-card {
@@ -53,7 +53,7 @@
 }
 
 .login-card {
-    background-color: whitesmoke;
+    background-color: #F5F5F5;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
     color: black;
     display: flex;
@@ -84,4 +84,11 @@
 .button-login{
     margin-top: 20px;
     margin-left: 95px;
+    background-color: #001F3F;
+    border: #001F3F;
+}
+
+.button-login:hover{
+    background-color: #005B85;
+    border: #005B85;
 }

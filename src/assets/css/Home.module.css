@@ -1,5 +1,5 @@
 header {
-    background-color: #1d1e1f;
+    background-color: #001F33;
     height: auto;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@ header {
 
 body {
     margin: 0 !important;
-    background-color: darkgray !important;
+    background-color: #F2F2F2 !important;
 }
 
 .container-home {
@@ -41,7 +41,7 @@ body {
 .container-menu li {
     padding: 0px 10px;
     cursor: pointer;
-    color: white;
+    color: #FFF;
     font-size: 20px;
     font-family: sans-serif;
     margin: 10px;
@@ -50,11 +50,11 @@ body {
 .container-menu a {
     text-decoration: none;
     transition: all 0.3s ease 0s;
-    color: white;
+    color: #FFF;
 }
 
 .container-menu a:hover {
-    color: #005b85;
+    color: #005B85; 
 }
 
 .login {
@@ -80,7 +80,7 @@ body {
 .log-link {
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: #FFF;
 }
 
 .container-carousel {
@@ -99,7 +99,7 @@ body {
 }
 
 footer {
-    background-color: #1d1e1f;
+    background-color: #001F33;
     height: auto;
     bottom: 0;
     padding: 20px;
