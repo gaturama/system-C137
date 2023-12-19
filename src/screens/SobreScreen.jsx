@@ -3,6 +3,7 @@ import styles from '../assets/css/Home.module.css';
 import story from '../assets/css/Historia.module.css'
 import logo from '../assets/img/System C-137.png';
 import login from '../assets/img/login.png';
+import banner from '../assets/img/banner.png';
 import { Carousel } from "react-bootstrap";
 
 export default function SobreScreen() {
@@ -28,16 +29,7 @@ export default function SobreScreen() {
                 <div className={styles["container-carousel"]}>
                     <Carousel controls={false} >
                         <Carousel.Item>
-                            <img src='https://picsum.photos/1920/400' />
-                            <Carousel.Caption>Slide 1</Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src='https://picsum.photos/1920/400' />
-                            <Carousel.Caption>Slide 2</Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img src='https://picsum.photos/1920/400' />
-                            <Carousel.Caption>Slide 3</Carousel.Caption>
+                            <img src={banner} />
                         </Carousel.Item>
                     </Carousel>
                 </div>
