@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
+import { Container, Carousel } from "react-bootstrap";
 import styles from '../assets/css/Home.module.css';
 import login from '../assets/img/login.png';
 import logo from '../assets/img/System C-137.png';
+import banner from '../assets/img/banner.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Note from './CardNoticia';
 
 export default function HomeScreen() {
     return (
@@ -24,7 +27,17 @@ export default function HomeScreen() {
                 </div>
             </header>
             <main>
+                <div className={styles["container-carousel"]}>
+                    <Carousel controls={false} >
+                        <Carousel.Item>
+                            <img src={banner} />
+                        </Carousel.Item>
+                    </Carousel>
 
+                    <Container className={styles["container-notes"]}>
+                        <Note />
+                    </Container>
+                </div>
             </main>
         </>
     )

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import { Container } from 'react-bootstrap';
+import { Container, Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../assets/img/System C-137.png';
 import login from '../assets/img/login.png';
 import styles from '../assets/css/Home.module.css';
+import banner from '../assets/img/banner.png';
 import Produto from "./CardProduto";
 
 export default function ProdutoScreen() {
@@ -25,11 +26,20 @@ export default function ProdutoScreen() {
                     <li className={styles['log']}><Link className={styles['log-link']} to="/login">Login</Link></li>
                 </div>
             </header>
-            <Container className={styles["container-products"]}>
-                <Produto />
-            </Container>
+            <main>
+                <div className={styles["container-carousel"]}>
+                    <Carousel controls={false} >
+                        <Carousel.Item>
+                            <img src={banner} />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                
+                <Container className={styles["container-products"]}>
+                    <Produto />
+                </Container>
+            </main>
             <footer>
-
             </footer>
         </>
     )
