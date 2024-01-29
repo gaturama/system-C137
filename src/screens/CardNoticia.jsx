@@ -6,7 +6,7 @@ import imagemTres from '../assets/images/f-150.jpg'
 import imagemQuatro from '../assets/images/silverado-2500.jpg'
 
 const notes = [
-    { imagem: imagemUm, title: 'Toyota GR Yaris' , text: ''},
+    { imagem: imagemUm, title: 'Toyota GR Yaris' , text: 'The GR Yaris just got even better. The product of constant improvement, the New GR Yaris is an instant hot hatch classic, powered by a turbocharged three-cylinder engine to deliver even more power and torque  and the introduction of a brand-new eight-speed GAZOO RACING.'},
     { imagem: imagemDois, title: 'Mercedes AMG CLE', text: ''},
     { imagem: imagemTres, title: 'Ford F-150 Lariat', text: ''},
     { imagem: imagemQuatro, title: 'Chevrolet Silverado 2500', text: ''}
@@ -23,8 +23,8 @@ function Note() {
                         src={note.imagem}    
                     />
                     <Card.Body>
-                        <Card.Title className={stylesCard["title-card"]}>{note.title}</Card.Title>
-                        <Card.Text className={stylesCard["text-card"]}>{note.text}</Card.Text>
+                        <Card.Title className={stylesCard["title-note"]}>{note.title}</Card.Title>
+                        <Card.Text className={stylesCard["text-note"]}>{note.text}</Card.Text>
                     </Card.Body>
                 </Card>
             ))}

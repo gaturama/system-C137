@@ -34,9 +34,9 @@ export default function HomeScreen() {
                         </Carousel.Item>
                     </Carousel>
 
-                    <Container className={styles["container-notes"]}>
+                    {/* <Container className={styles["container-notes"]}>
                         <Note />
-                    </Container>
+                    </Container> */}
                 </div>
             </main>
         </>

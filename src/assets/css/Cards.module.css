@@ -26,32 +26,38 @@
 
 .container-notes {
     max-width: 100%;
-    margin-top: 10px;
+    margin-top: 80px;
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .note-card{
     align-items: center;
-    background-color: #5A9FBB; 
+    background-color: white; 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    border-radius: 12px;
     color: black;
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    height: 300px;
+    height: 375px;
     justify-content: center;
-    margin-top: 40px;
-    max-width: 220px;
+    max-width: 280px;
     width: 100%;
-    position: relative;
 }
+
 
 .card-img {
     object-fit: cover;
+}
+
+.title-note{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .title-card {
@@ -61,6 +67,14 @@
     font-weight: bold;
     background-color: #F5F5F5;
     color: #001F3F;
+}
+
+.text-note {
+    width: 100%;
+    font-size: 12px;
+    text-align: start;
+    margin-top: 15px;
+    font-weight: bold;
 }
 
 .text-card {
