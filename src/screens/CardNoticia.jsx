@@ -6,10 +6,10 @@ import imagemTres from '../assets/images/f-150.jpg'
 import imagemQuatro from '../assets/images/silverado-2500.jpg'
 
 const notes = [
-    { imagem: imagemUm, title: 'Toyota GR Yaris' , text: 'The GR Yaris just got even better. The product of constant improvement, the New GR Yaris is an instant hot hatch classic, powered by a turbocharged three-cylinder engine to deliver even more power and torque  and the introduction of a brand-new eight-speed GAZOO RACING.'},
-    { imagem: imagemDois, title: 'Mercedes AMG CLE', text: ''},
-    { imagem: imagemTres, title: 'Ford F-150 Lariat', text: ''},
-    { imagem: imagemQuatro, title: 'Chevrolet Silverado 2500', text: ''}
+    { imagem: imagemUm, title: 'Toyota GR Yaris' , text: 'The GR Yaris just got even better. The product of constant improvement, the New GR Yaris is an instant hot hatch classic, powered by a turbocharged three-cylinder engine to deliver even more power and torque.'},
+    { imagem: imagemDois, title: 'Mercedes AMG CLE', text: 'Character meets charisma in the all-new Mercedes-AMG CLE 53 4MATIC+ Coupé, blending thrilling performance, confident style and genuine comfort. Tailored to your unique taste.'},
+    { imagem: imagemTres, title: 'Ford F-150 Lariat', text: 'The Ford F-150 offers the best attributes of a modern pickup: power, efficiency, comfort and capability. Add to that a huge range of configurations and options, and you have got a highly appealing light-duty pickup.'},
+    { imagem: imagemQuatro, title: 'Chevrolet Silverado 2500', text: 'With legendary strength and advanced capability, the 2023 Silverado is ready for anything that comes your way.'}
 ];
 
 function Note() {

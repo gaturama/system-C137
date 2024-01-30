@@ -25,9 +25,8 @@
 }
 
 .container-notes {
-    max-width: 100%;
+    width: 100%;
     margin-top: 80px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -36,18 +35,22 @@
     align-items: center;
     background-color: white; 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
-    border-radius: 12px;
+    border-radius: 14px;
     color: black;
     display: flex;
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    height: 375px;
+    height: 340px;
     justify-content: center;
     max-width: 280px;
     width: 100%;
 }
 
+.note-img {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
 
 .card-img {
     object-fit: cover;

@@ -33,10 +33,11 @@ export default function HomeScreen() {
                             <img src={banner} />
                         </Carousel.Item>
                     </Carousel>
-
-                    {/* <Container className={styles["container-notes"]}>
+                </div>
+                <div>
+                    <Container className={styles["container-notes"]}>
                         <Note />
-                    </Container> */}
+                    </Container>
                 </div>
             </main>
         </>
