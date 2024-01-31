@@ -35,11 +35,17 @@ export default function HomeScreen() {
                     </Carousel>
                 </div>
                 <div>
+                    <h3 className={styles["new-notes"]}>
+                        Últimas Notícias  
+                    </h3>
                     <Container className={styles["container-notes"]}>
                         <Note />
                     </Container>
                 </div>
             </main>
+            <footer>
+                
+            </footer>
         </>
     )
 }
