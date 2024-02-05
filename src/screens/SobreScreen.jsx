@@ -4,6 +4,8 @@ import story from '../assets/css/Historia.module.css'
 import logo from '../assets/img/System C-137.png';
 import login from '../assets/img/login.png';
 import banner from '../assets/img/banner.png';
+import email from '../assets/images/logo-email.png';
+import whats from '../assets/images/logo-whatsapp.png';
 import { Carousel } from "react-bootstrap";
 
 export default function SobreScreen() {
@@ -45,7 +47,11 @@ export default function SobreScreen() {
                 </div>
             </main>
             <footer>
-
+                <h3 className={styles["container-footer"]}>
+                    Contatos: <br/>
+                    <br/><p><img className={styles["contatos"]} src={whats} /> WhatsApp: (47) 99946-8063</p>
+                    <p><img className={styles["contatos"]} src={email} /> E-mail: systemc137@gmail.com</p>
+                </h3>
             </footer>
         </>
     )

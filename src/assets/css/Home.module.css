@@ -114,3 +114,19 @@ footer {
     padding: 20px;
     width: 100%;
 }
+
+.container-footer {
+    font-size: 15px;
+    color: white;
+    margin-left: 310px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-footer p{
+    font-size: 12px;
+}
+
+.contatos {
+    width: 100%;
+    max-width: 25px;
+}

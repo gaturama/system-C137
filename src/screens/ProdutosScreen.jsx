@@ -5,6 +5,8 @@ import logo from '../assets/img/System C-137.png';
 import login from '../assets/img/login.png';
 import styles from '../assets/css/Home.module.css';
 import banner from '../assets/img/banner.png';
+import email from '../assets/images/logo-email.png';
+import whats from '../assets/images/logo-whatsapp.png';
 import Produto from "./CardProduto";
 
 export default function ProdutoScreen() {
@@ -39,6 +41,11 @@ export default function ProdutoScreen() {
                 </Container>
             </main>
             <footer>
+                <h3 className={styles["container-footer"]}>
+                    Contatos: <br/>
+                    <br/><p><img className={styles["contatos"]} src={whats} /> WhatsApp: (47) 99946-8063</p>
+                    <p><img className={styles["contatos"]} src={email} /> E-mail: systemc137@gmail.com</p>
+                </h3>
             </footer>
         </>
     )

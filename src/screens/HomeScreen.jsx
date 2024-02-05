@@ -4,6 +4,8 @@ import styles from '../assets/css/Home.module.css';
 import login from '../assets/img/login.png';
 import logo from '../assets/img/System C-137.png';
 import banner from '../assets/img/banner.png';
+import email from '../assets/images/logo-email.png';
+import whats from '../assets/images/logo-whatsapp.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Note from './CardNoticia';
 
@@ -44,7 +46,11 @@ export default function HomeScreen() {
                 </div>
             </main>
             <footer>
-                
+                <h3 className={styles["container-footer"]}>
+                    Contatos: <br/>
+                    <br/><p><img className={styles["contatos"]} src={whats} /> WhatsApp: (47) 99946-8063</p>
+                    <p><img className={styles["contatos"]} src={email} /> E-mail: systemc137@gmail.com</p>
+                </h3>
             </footer>
         </>
     )
