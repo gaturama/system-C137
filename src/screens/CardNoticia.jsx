@@ -10,14 +10,14 @@ import imagemSete from '../assets/images/panamera.jpg'
 import imagemOito from '../assets/images/purosangue.jpg'
 
 const notes = [
-    { imagem: imagemCinco, title: 'Audi Q8 E-Tron', text: 'The Audi Q8 e-tron is the next progressive step in premium electric mobility—featuring updated battery technology, striking design, and improved driving dynamics.'},
-    { imagem: imagemSeis, title: 'BMW 5 Series M Sport', text: 'With a progressive exterior design, the new BMW 5 Series expresses its muscular presence and sporting appeal more vividly than ever.'},
-    { imagem: imagemSete, title: 'Porsche Panamera Turbo E-Hybrid', text: 'The Panamera is for those who use freedom to follow their instincts. Who express themselves in the way they travel, not just in reaching their destination.'},
-    { imagem: imagemOito, title: 'Ferrari Purosangue', text: 'The Ferrari Purosangue is the first ever four-door, four-seater car in Ferrari’s history, but models with two rear seats have played a significant role in the company’s strategy since the very beginning.'},
-    { imagem: imagemUm, title: 'Toyota GR Yaris' , text: 'The GR Yaris just got even better. The product of constant improvement, the New GR Yaris is an instant hot hatch classic, powered by a turbocharged three-cylinder engine to deliver even more power and torque.'},
-    { imagem: imagemDois, title: 'Mercedes-AMG S 63 E', text: 'Luxury has never meant such high-performance: The new Mercedes-AMG S 63 E PERFORMANCE combines unbridled performance with innovative technology and unsurpassed luxury.'},
-    { imagem: imagemTres, title: 'Ford F-150 Raptor', text: 'The Ford F-150 offers the best attributes of a modern pickup: power, efficiency, comfort and capability. Add to that a huge range of configurations and options, and you have got a highly appealing light-duty pickup.'},
-    { imagem: imagemQuatro, title: 'Chevrolet Silverado 2500', text: 'With legendary strength and advanced capability, the 2023 Silverado is ready for anything that comes your way.'}
+    { imagem: imagemCinco, title: 'Audi Q8 E-Tron', text: 'O Audi Q8 E-Tron representa o próximo avanço progressivo na mobilidade elétrica premium, destacando-se por sua tecnologia de bateria atualizada, design marcante e dinâmica de condução aprimorada.'},
+    { imagem: imagemSeis, title: 'BMW 5 Series M Sport', text: 'Apresentando um design exterior progressivo, o novo BMW Série 5 expressa sua presença robusta e um toque esportivo de maneira mais vívida do que nunca.'},
+    { imagem: imagemSete, title: 'Porsche Panamera Turbo E-Hybrid', text: 'O Panamera é para aqueles que utilizam a liberdade para seguir seus instintos. Que se expressam na forma como viajam, não apenas ao alcançar seu destino.'},
+    { imagem: imagemOito, title: 'Ferrari Purosangue', text: 'O Ferrari Purosangue é o primeiro carro de quatro portas e quatro lugares na história da Ferrari, mas modelos com dois assentos traseiros desempenharam um papel significativo na estratégia da empresa desde o início.'},
+    { imagem: imagemUm, title: 'Toyota GR Yaris' , text: 'O Novo GR Yaris é instantaneamente considerado um clássico dos hot hatches, impulsionado por um motor turbo de três cilindros para oferecer ainda mais potência e torque.'},
+    { imagem: imagemDois, title: 'Mercedes-AMG S 63 E', text: 'O novo Mercedes-AMG S 63 E PERFORMANCE combina desempenho sem limites com tecnologia inovadora e luxo incomparável.'},
+    { imagem: imagemTres, title: 'Ford F-150 Raptor', text: 'O Ford F-150 oferece os melhores atributos de uma picape moderna: potência, eficiência, conforto e capacidade. '},
+    { imagem: imagemQuatro, title: 'Chevrolet Silverado 2500', text: 'Com força lendária e capacidade avançada, o Silverado 2024 está pronto para enfrentar qualquer desafio que surja em seu caminho.'}
 ];
 
 function Note() {
