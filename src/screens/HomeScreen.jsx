@@ -36,9 +36,20 @@ export default function HomeScreen() {
                         </Carousel.Item>
                     </Carousel>
                 </div>
+                <div className={styles["video"]}>
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/NmHbY5hKXXs?si=k9y6Dz5LQZL58eCp" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen
+                    ></iframe>
+                </div>
                 <div>
                     <h3 className={styles["new-notes"]}>
-                        Últimas Notícias  
+                        Últimas Notícias
                     </h3>
                     <Container className={styles["container-notes"]}>
                         <Note />
@@ -47,8 +58,8 @@ export default function HomeScreen() {
             </main>
             <footer>
                 <h3 className={styles["container-footer"]}>
-                    Contatos: <br/>
-                    <br/><p><img className={styles["contatos"]} src={whats} /> WhatsApp: (47) 99946-8063</p>
+                    Contatos: <br />
+                    <br /><p><img className={styles["contatos"]} src={whats} /> WhatsApp: (47) 99946-8063</p>
                     <p><img className={styles["contatos"]} src={email} /> E-mail: systemc137@gmail.com</p>
                 </h3>
             </footer>
