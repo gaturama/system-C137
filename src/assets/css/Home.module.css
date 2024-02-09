@@ -107,13 +107,13 @@ body {
     max-width: 800px;
     margin-top: 30px;
     margin-left: 550px;
-    width: 100%;
 }
 
 iframe {
     width: 90%;
     height: 90%;
     border-radius: 16px;
+    width: 100%;
 }
 
 .new-notes{
