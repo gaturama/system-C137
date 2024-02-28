@@ -4,6 +4,7 @@ import story from '../assets/css/Historia.module.css'
 import logo from '../assets/img/System C-137.png';
 import login from '../assets/img/login.png';
 import banner from '../assets/img/banner.png';
+import banner_promo from '../assets/img/banner-promo.png';
 import email from '../assets/images/logo-email.png';
 import whats from '../assets/images/logo-whatsapp.png';
 import { Carousel } from "react-bootstrap";
@@ -29,9 +30,12 @@ export default function SobreScreen() {
             </header>
             <main>
                 <div className={styles["container-carousel"]}>
-                    <Carousel controls={false} >
+                    <Carousel>
                         <Carousel.Item>
                             <img src={banner} />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={banner_promo} />
                         </Carousel.Item>
                     </Carousel>
                 </div>

@@ -5,6 +5,7 @@ import logo from '../assets/img/System C-137.png';
 import login from '../assets/img/login.png';
 import styles from '../assets/css/Home.module.css';
 import banner from '../assets/img/banner.png';
+import banner_promo from '../assets/img/banner-promo.png';
 import email from '../assets/images/logo-email.png';
 import whats from '../assets/images/logo-whatsapp.png';
 import Produto from "./CardProduto";
@@ -19,7 +20,7 @@ export default function ProdutoScreen() {
                 <nav>
                     <ul className={styles["container-menu"]}>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/produtos">Produtos</Link></li>
+                        <li><Link to="/produto">Produtos</Link></li>
                         <li><Link to="/sobre">Sobre</Link></li>
                     </ul>
                 </nav>
@@ -30,9 +31,12 @@ export default function ProdutoScreen() {
             </header>
             <main>
                 <div className={styles["container-carousel"]}>
-                    <Carousel controls={false} >
+                    <Carousel>
                         <Carousel.Item>
                             <img src={banner} />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img src={banner_promo} />
                         </Carousel.Item>
                     </Carousel>
                 </div>
