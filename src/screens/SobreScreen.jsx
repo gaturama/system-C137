@@ -53,7 +53,7 @@ export default function SobreScreen() {
             <footer>
                 <h3 className={styles["container-footer"]}>
                     Contatos: <br/>
-                    <br/><p><img className={styles["contatos"]} src={whats} /> WhatsApp: (47) 99946-8063</p>
+                    <br/><p><img className={styles["contatos"]} src={whats} /> WhatsApp: (99) 00000-0000</p>
                     <p><img className={styles["contatos"]} src={email} /> E-mail: systemc137@gmail.com</p>
                 </h3>
             </footer>
